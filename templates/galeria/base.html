@@ -15,7 +15,10 @@
 </head>
 
 <body>
+    {% comment %} {% include 'galeria/partials/_search.html' %}
+    {% include 'galeria/partials/_paginitial.html' %} {% endcomment %}
     {% block content %}{% endblock %}
+    {% include 'galeria/partials/_footer.html' %}
 </body>
 
 </html>
